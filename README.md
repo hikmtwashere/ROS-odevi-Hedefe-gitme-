@@ -59,5 +59,3 @@ rosrun <package_adı> waypoint_nav.py
 ## Amaç
 
 ROS Navigation ve MoveBase action yapısını öğrenmek ve temel waypoint navigation mantığını anlamak.
-
-```
