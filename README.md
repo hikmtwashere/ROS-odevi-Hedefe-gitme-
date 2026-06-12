@@ -40,14 +40,13 @@ roslaunch turtlebot3_gazebo turtlebot3_world.launch
 Navigation sistemini başlat:
 
 ```bash
-roslaunch turtlebot3_navigation turtlebot3_navigation.launch
+roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$(rospack find my_navigation)/maps/my_map.yaml
 ```
 
 Scripti çalıştır:
 
 ```bash
-chmod +x waypoint_nav.py
-rosrun <package_adı> waypoint_nav.py
+rosrun my_navigation otonom_hedef.py
 ```
 
 ## Notlar
